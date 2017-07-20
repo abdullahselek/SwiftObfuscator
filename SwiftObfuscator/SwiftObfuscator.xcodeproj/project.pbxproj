@@ -10,6 +10,7 @@
 		A4BFD2D21F210BE000736539 /* SwiftObfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */; };
 		A4BFD2D71F210BE000736539 /* SwiftObfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */; };
 		A4BFD2D91F210BE000736539 /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BFD2E31F210CA600736539 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFD2E21F210CA600736539 /* Obfuscator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		A4BFD2D11F210BE000736539 /* SwiftObfuscatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftObfuscatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftObfuscatorTests.swift; sourceTree = "<group>"; };
 		A4BFD2D81F210BE000736539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BFD2E21F210CA600736539 /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */,
 				A4BFD2CC1F210BE000736539 /* Info.plist */,
+				A4BFD2E21F210CA600736539 /* Obfuscator.swift */,
 			);
 			path = SwiftObfuscator;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					A4BFD2C71F210BE000736539 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					A4BFD2D01F210BE000736539 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BFD2E31F210CA600736539 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		A4BFD2DD1F210BE000736539 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		A4BFD2DE1F210BE000736539 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -360,6 +368,7 @@
 		A4BFD2E01F210BE000736539 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SwiftObfuscatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscatorTests;
@@ -371,6 +380,7 @@
 		A4BFD2E11F210BE000736539 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SwiftObfuscatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscatorTests;
