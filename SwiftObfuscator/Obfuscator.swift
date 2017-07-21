@@ -6,6 +6,8 @@
 //  Copyright © 2017 Abdullah Selek. All rights reserved.
 //
 
+import CommonCrypto
+
 class Obfuscator: NSObject {
 
 }

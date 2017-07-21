@@ -1,0 +1,11 @@
+//
+//  CommonCrypto.xcconfig
+//  SwiftObfuscator
+//
+//  Created by Abdullah Selek on 21/07/2017.
+//  Copyright © 2017 Abdullah Selek. All rights reserved.
+//
+
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/CommonCrypto/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/CommonCrypto/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/CommonCrypto/macosx.modulemap
