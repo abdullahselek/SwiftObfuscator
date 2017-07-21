@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A457BD211F222F28006858CB /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A457BD1F1F222F28006858CB /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A457BD311F22309C006858CB /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BD1D1F222F28006858CB /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A457BD3A1F2231CC006858CB /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A457BD341F2231CC006858CB /* CommonCrypto.h */; };
+		A457BD3B1F2231CC006858CB /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */; };
+		A457BD3C1F2231CC006858CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A457BD361F2231CC006858CB /* Info.plist */; };
 		A4BFD2D21F210BE000736539 /* SwiftObfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4BFD2D71F210BE000736539 /* SwiftObfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */; };
 		A4BFD2D91F210BE000736539 /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,12 +29,12 @@
 
 /* Begin PBXFileReference section */
 		A457BD1D1F222F28006858CB /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A457BD1F1F222F28006858CB /* CommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
-		A457BD201F222F28006858CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A457BD251F222F5F006858CB /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
-		A457BD261F222FD0006858CB /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
-		A457BD271F222FEA006858CB /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
-		A457BD281F223001006858CB /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
+		A457BD341F2231CC006858CB /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
+		A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
+		A457BD361F2231CC006858CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A457BD371F2231CC006858CB /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		A457BD381F2231CC006858CB /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
+		A457BD391F2231CC006858CB /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
 		A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftObfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftObfuscator.h; sourceTree = "<group>"; };
 		A4BFD2CC1F210BE000736539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,8 +74,12 @@
 		A457BD1E1F222F28006858CB /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				A457BD1F1F222F28006858CB /* CommonCrypto.h */,
-				A457BD201F222F28006858CB /* Info.plist */,
+				A457BD341F2231CC006858CB /* CommonCrypto.h */,
+				A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */,
+				A457BD371F2231CC006858CB /* iphoneos.modulemap */,
+				A457BD381F2231CC006858CB /* iphonesimulator.modulemap */,
+				A457BD391F2231CC006858CB /* macosx.modulemap */,
+				A457BD361F2231CC006858CB /* Info.plist */,
 			);
 			path = CommonCrypto;
 			sourceTree = "<group>";
@@ -81,10 +87,6 @@
 		A4BFD2BE1F210BE000736539 = {
 			isa = PBXGroup;
 			children = (
-				A457BD261F222FD0006858CB /* iphoneos.modulemap */,
-				A457BD271F222FEA006858CB /* iphonesimulator.modulemap */,
-				A457BD281F223001006858CB /* macosx.modulemap */,
-				A457BD251F222F5F006858CB /* CommonCrypto.xcconfig */,
 				A4BFD2CA1F210BE000736539 /* SwiftObfuscator */,
 				A4BFD2D51F210BE000736539 /* SwiftObfuscatorTests */,
 				A457BD1E1F222F28006858CB /* CommonCrypto */,
@@ -128,7 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A457BD211F222F28006858CB /* CommonCrypto.h in Headers */,
+				A457BD3A1F2231CC006858CB /* CommonCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A457BD3C1F2231CC006858CB /* Info.plist in Resources */,
+				A457BD3B1F2231CC006858CB /* CommonCrypto.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
