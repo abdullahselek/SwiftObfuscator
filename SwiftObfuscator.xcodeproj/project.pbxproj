@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A43B3B571F23B723003BB7FD /* SwiftObfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B3B4E1F23B723003BB7FD /* SwiftObfuscator.framework */; };
+		A43B3B6B1F23B89F003BB7FD /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,8 @@
 		A43B3B561F23B723003BB7FD /* SwiftObfuscator-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftObfuscator-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43B3B661F23B82B003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = GenerateCommonCryptoModule; path = CommonCrypto/GenerateCommonCryptoModule; sourceTree = "<group>"; };
 		A43B3B671F23B82B003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateCommonCryptoModule.swift; path = CommonCrypto/GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
+		A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftObfuscator.h; path = Source/SwiftObfuscator.h; sourceTree = "<group>"; };
+		A43B3B6C1F23B8A8003BB7FD /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Source/Info-iOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		A43B3B471F23B6CF003BB7FD /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A43B3B6C1F23B8A8003BB7FD /* Info-iOS.plist */,
+				A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43B3B6B1F23B89F003BB7FD /* SwiftObfuscator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
