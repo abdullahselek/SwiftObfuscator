@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43B3B451F23B557003BB7FD /* GenerateCommonCryptoModule in Resources */ = {isa = PBXBuildFile; fileRef = A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */; };
+		A43B3B461F23B557003BB7FD /* GenerateCommonCryptoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */; };
 		A457BD311F22309C006858CB /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BD1D1F222F28006858CB /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A457BD3A1F2231CC006858CB /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A457BD341F2231CC006858CB /* CommonCrypto.h */; };
 		A457BD3B1F2231CC006858CB /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GenerateCommonCryptoModule; sourceTree = "<group>"; };
+		A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
 		A457BD1D1F222F28006858CB /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A457BD341F2231CC006858CB /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
 		A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		A4BFD2BE1F210BE000736539 = {
 			isa = PBXGroup;
 			children = (
+				A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */,
+				A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */,
 				A4BFD2CA1F210BE000736539 /* SwiftObfuscator */,
 				A4BFD2D51F210BE000736539 /* SwiftObfuscatorTests */,
 				A457BD1E1F222F28006858CB /* CommonCrypto */,
@@ -257,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43B3B451F23B557003BB7FD /* GenerateCommonCryptoModule in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43B3B461F23B557003BB7FD /* GenerateCommonCryptoModule.swift in Sources */,
 				A4BFD2E31F210CA600736539 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +526,7 @@
 				A457BD231F222F28006858CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BFD2C21F210BE000736539 /* Build configuration list for PBXProject "SwiftObfuscator" */ = {
 			isa = XCConfigurationList;
