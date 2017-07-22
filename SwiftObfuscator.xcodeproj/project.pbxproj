@@ -22,8 +22,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GenerateCommonCryptoModule; sourceTree = "<group>"; };
-		A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
 		A43B3B4E1F23B723003BB7FD /* SwiftObfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftObfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43B3B561F23B723003BB7FD /* SwiftObfuscator-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftObfuscator-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43B3B661F23B82B003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = GenerateCommonCryptoModule; path = CommonCrypto/GenerateCommonCryptoModule; sourceTree = "<group>"; };
@@ -82,8 +80,6 @@
 				A43B3B651F23B7FF003BB7FD /* CommonCrypto */,
 				A43B3B471F23B6CF003BB7FD /* Source */,
 				A43B3B481F23B6D8003BB7FD /* Tests */,
-				A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */,
-				A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */,
 				A4BFD2C91F210BE000736539 /* Products */,
 			);
 			sourceTree = "<group>";
