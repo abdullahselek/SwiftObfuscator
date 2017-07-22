@@ -6,96 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A43B3B451F23B557003BB7FD /* GenerateCommonCryptoModule in Resources */ = {isa = PBXBuildFile; fileRef = A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */; };
-		A43B3B461F23B557003BB7FD /* GenerateCommonCryptoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */; };
-		A457BD311F22309C006858CB /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BD1D1F222F28006858CB /* CommonCrypto.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A457BD3A1F2231CC006858CB /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A457BD341F2231CC006858CB /* CommonCrypto.h */; };
-		A457BD3B1F2231CC006858CB /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */; };
-		A457BD3C1F2231CC006858CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A457BD361F2231CC006858CB /* Info.plist */; };
-		A4BFD2D21F210BE000736539 /* SwiftObfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A4BFD2D71F210BE000736539 /* SwiftObfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */; };
-		A4BFD2D91F210BE000736539 /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4BFD2E31F210CA600736539 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BFD2E21F210CA600736539 /* Obfuscator.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A4BFD2D31F210BE000736539 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4BFD2BF1F210BE000736539 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4BFD2C71F210BE000736539;
-			remoteInfo = SwiftObfuscator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GenerateCommonCryptoModule; sourceTree = "<group>"; };
 		A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
-		A457BD1D1F222F28006858CB /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A457BD341F2231CC006858CB /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
-		A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
-		A457BD361F2231CC006858CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A457BD371F2231CC006858CB /* iphoneos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
-		A457BD381F2231CC006858CB /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
-		A457BD391F2231CC006858CB /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
-		A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftObfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftObfuscator.h; sourceTree = "<group>"; };
-		A4BFD2CC1F210BE000736539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4BFD2D11F210BE000736539 /* SwiftObfuscatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftObfuscatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftObfuscatorTests.swift; sourceTree = "<group>"; };
-		A4BFD2D81F210BE000736539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4BFD2E21F210CA600736539 /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A457BD191F222F28006858CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2C41F210BE000736539 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A457BD311F22309C006858CB /* CommonCrypto.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2CE1F210BE000736539 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4BFD2D21F210BE000736539 /* SwiftObfuscator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A457BD1E1F222F28006858CB /* CommonCrypto */ = {
-			isa = PBXGroup;
-			children = (
-				A457BD341F2231CC006858CB /* CommonCrypto.h */,
-				A457BD351F2231CC006858CB /* CommonCrypto.xcconfig */,
-				A457BD371F2231CC006858CB /* iphoneos.modulemap */,
-				A457BD381F2231CC006858CB /* iphonesimulator.modulemap */,
-				A457BD391F2231CC006858CB /* macosx.modulemap */,
-				A457BD361F2231CC006858CB /* Info.plist */,
-			);
-			path = CommonCrypto;
-			sourceTree = "<group>";
-		};
 		A4BFD2BE1F210BE000736539 = {
 			isa = PBXGroup;
 			children = (
 				A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */,
 				A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */,
-				A4BFD2CA1F210BE000736539 /* SwiftObfuscator */,
-				A4BFD2D51F210BE000736539 /* SwiftObfuscatorTests */,
-				A457BD1E1F222F28006858CB /* CommonCrypto */,
 				A4BFD2C91F210BE000736539 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,109 +24,11 @@
 		A4BFD2C91F210BE000736539 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */,
-				A4BFD2D11F210BE000736539 /* SwiftObfuscatorTests.xctest */,
-				A457BD1D1F222F28006858CB /* CommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4BFD2CA1F210BE000736539 /* SwiftObfuscator */ = {
-			isa = PBXGroup;
-			children = (
-				A4BFD2CB1F210BE000736539 /* SwiftObfuscator.h */,
-				A4BFD2CC1F210BE000736539 /* Info.plist */,
-				A4BFD2E21F210CA600736539 /* Obfuscator.swift */,
-			);
-			path = SwiftObfuscator;
-			sourceTree = "<group>";
-		};
-		A4BFD2D51F210BE000736539 /* SwiftObfuscatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				A4BFD2D61F210BE000736539 /* SwiftObfuscatorTests.swift */,
-				A4BFD2D81F210BE000736539 /* Info.plist */,
-			);
-			path = SwiftObfuscatorTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		A457BD1A1F222F28006858CB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A457BD3A1F2231CC006858CB /* CommonCrypto.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2C51F210BE000736539 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4BFD2D91F210BE000736539 /* SwiftObfuscator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		A457BD1C1F222F28006858CB /* CommonCrypto */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A457BD241F222F28006858CB /* Build configuration list for PBXNativeTarget "CommonCrypto" */;
-			buildPhases = (
-				A457BD181F222F28006858CB /* Sources */,
-				A457BD191F222F28006858CB /* Frameworks */,
-				A457BD1A1F222F28006858CB /* Headers */,
-				A457BD1B1F222F28006858CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CommonCrypto;
-			productName = CommonCrypto;
-			productReference = A457BD1D1F222F28006858CB /* CommonCrypto.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4BFD2C71F210BE000736539 /* SwiftObfuscator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4BFD2DC1F210BE000736539 /* Build configuration list for PBXNativeTarget "SwiftObfuscator" */;
-			buildPhases = (
-				A4BFD2C31F210BE000736539 /* Sources */,
-				A4BFD2C41F210BE000736539 /* Frameworks */,
-				A4BFD2C51F210BE000736539 /* Headers */,
-				A4BFD2C61F210BE000736539 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftObfuscator;
-			productName = SwiftObfuscator;
-			productReference = A4BFD2C81F210BE000736539 /* SwiftObfuscator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4BFD2D01F210BE000736539 /* SwiftObfuscatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4BFD2DF1F210BE000736539 /* Build configuration list for PBXNativeTarget "SwiftObfuscatorTests" */;
-			buildPhases = (
-				A4BFD2CD1F210BE000736539 /* Sources */,
-				A4BFD2CE1F210BE000736539 /* Frameworks */,
-				A4BFD2CF1F210BE000736539 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4BFD2D41F210BE000736539 /* PBXTargetDependency */,
-			);
-			name = SwiftObfuscatorTests;
-			productName = SwiftObfuscatorTests;
-			productReference = A4BFD2D11F210BE000736539 /* SwiftObfuscatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A4BFD2BF1F210BE000736539 /* Project object */ = {
@@ -214,21 +37,6 @@
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Abdullah Selek";
-				TargetAttributes = {
-					A457BD1C1F222F28006858CB = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
-					A4BFD2C71F210BE000736539 = {
-						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
-					};
-					A4BFD2D01F210BE000736539 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = A4BFD2C21F210BE000736539 /* Build configuration list for PBXProject "SwiftObfuscator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -242,114 +50,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4BFD2C71F210BE000736539 /* SwiftObfuscator */,
-				A4BFD2D01F210BE000736539 /* SwiftObfuscatorTests */,
-				A457BD1C1F222F28006858CB /* CommonCrypto */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		A457BD1B1F222F28006858CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A457BD3C1F2231CC006858CB /* Info.plist in Resources */,
-				A457BD3B1F2231CC006858CB /* CommonCrypto.xcconfig in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2C61F210BE000736539 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A43B3B451F23B557003BB7FD /* GenerateCommonCryptoModule in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2CF1F210BE000736539 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		A457BD181F222F28006858CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2C31F210BE000736539 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A43B3B461F23B557003BB7FD /* GenerateCommonCryptoModule.swift in Sources */,
-				A4BFD2E31F210CA600736539 /* Obfuscator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4BFD2CD1F210BE000736539 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4BFD2D71F210BE000736539 /* SwiftObfuscatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A4BFD2D41F210BE000736539 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4BFD2C71F210BE000736539 /* SwiftObfuscator */;
-			targetProxy = A4BFD2D31F210BE000736539 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		A457BD221F222F28006858CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.CommonCrypto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		A457BD231F222F28006858CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CommonCrypto/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.CommonCrypto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		A4BFD2DA1F210BE000736539 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,106 +156,14 @@
 			};
 			name = Release;
 		};
-		A4BFD2DD1F210BE000736539 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftObfuscator/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		A4BFD2DE1F210BE000736539 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftObfuscator/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		A4BFD2E01F210BE000736539 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = SwiftObfuscatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		A4BFD2E11F210BE000736539 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = SwiftObfuscatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.SwiftObfuscatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A457BD241F222F28006858CB /* Build configuration list for PBXNativeTarget "CommonCrypto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A457BD221F222F28006858CB /* Debug */,
-				A457BD231F222F28006858CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A4BFD2C21F210BE000736539 /* Build configuration list for PBXProject "SwiftObfuscator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4BFD2DA1F210BE000736539 /* Debug */,
 				A4BFD2DB1F210BE000736539 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4BFD2DC1F210BE000736539 /* Build configuration list for PBXNativeTarget "SwiftObfuscator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4BFD2DD1F210BE000736539 /* Debug */,
-				A4BFD2DE1F210BE000736539 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4BFD2DF1F210BE000736539 /* Build configuration list for PBXNativeTarget "SwiftObfuscatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4BFD2E01F210BE000736539 /* Debug */,
-				A4BFD2E11F210BE000736539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
