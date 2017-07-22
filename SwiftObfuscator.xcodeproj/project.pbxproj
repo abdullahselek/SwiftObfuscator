@@ -25,6 +25,8 @@
 		A43B3B441F23B557003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
 		A43B3B4E1F23B723003BB7FD /* SwiftObfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftObfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43B3B561F23B723003BB7FD /* SwiftObfuscator-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftObfuscator-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43B3B661F23B82B003BB7FD /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = GenerateCommonCryptoModule; path = CommonCrypto/GenerateCommonCryptoModule; sourceTree = "<group>"; };
+		A43B3B671F23B82B003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateCommonCryptoModule.swift; path = CommonCrypto/GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,19 @@
 			name = Tests;
 			sourceTree = "<group>";
 		};
+		A43B3B651F23B7FF003BB7FD /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				A43B3B661F23B82B003BB7FD /* GenerateCommonCryptoModule */,
+				A43B3B671F23B82B003BB7FD /* GenerateCommonCryptoModule.swift */,
+			);
+			name = CommonCrypto;
+			sourceTree = "<group>";
+		};
 		A4BFD2BE1F210BE000736539 = {
 			isa = PBXGroup;
 			children = (
+				A43B3B651F23B7FF003BB7FD /* CommonCrypto */,
 				A43B3B471F23B6CF003BB7FD /* Source */,
 				A43B3B481F23B6D8003BB7FD /* Tests */,
 				A43B3B431F23B557003BB7FD /* GenerateCommonCryptoModule */,
@@ -141,6 +153,7 @@
 				TargetAttributes = {
 					A43B3B4D1F23B723003BB7FD = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					A43B3B551F23B723003BB7FD = {
@@ -213,6 +226,7 @@
 		A43B3B601F23B723003BB7FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -225,6 +239,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SwiftObfuscator-iOS";
 				PRODUCT_NAME = SwiftObfuscator;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -232,6 +247,7 @@
 		A43B3B611F23B723003BB7FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
