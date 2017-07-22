@@ -28,6 +28,7 @@
 		A43B3B671F23B82B003BB7FD /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateCommonCryptoModule.swift; path = CommonCrypto/GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
 		A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftObfuscator.h; path = Source/SwiftObfuscator.h; sourceTree = "<group>"; };
 		A43B3B6C1F23B8A8003BB7FD /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Source/Info-iOS.plist"; sourceTree = "<group>"; };
+		A43B3B6F1F23BA45003BB7FD /* generateForIOS.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = generateForIOS.sh; path = CommonCrypto/generateForIOS.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 			children = (
 				A43B3B661F23B82B003BB7FD /* GenerateCommonCryptoModule */,
 				A43B3B671F23B82B003BB7FD /* GenerateCommonCryptoModule.swift */,
+				A43B3B6F1F23BA45003BB7FD /* generateForIOS.sh */,
 			);
 			name = CommonCrypto;
 			sourceTree = "<group>";

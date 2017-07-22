@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -e "${PROJECT_DIR}/Frameworks/${PLATFORM_NAME}/CommonCrypto.framework" ] ; then
+    echo Generating "${PROJECT_DIR}/Frameworks/${PLATFORM_NAME}/CommonCrypto.framework"
+    xcrun -sdk macosx swift ./GenerateCommonCryptoModule.swift "${PLATFORM_NAME}" "${PROJECT_DIR}"
+else
+    echo Directory exists, skipping generation of "${PROJECT_DIR}/Frameworks/${PLATFORM_NAME}/CommonCrypto.framework"
+fi
