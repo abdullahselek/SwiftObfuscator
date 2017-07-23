@@ -1,19 +1,19 @@
 //
-//  SwiftObfuscator-iOS.h
-//  SwiftObfuscator-iOS
+//  SwiftObfuscator.h
+//  SwiftObfuscator
 //
-//  Created by Abdullah Selek on 22/07/2017.
+//  Created by Abdullah Selek on 23/07/2017.
 //  Copyright © 2017 Abdullah Selek. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for SwiftObfuscator.
-FOUNDATION_EXPORT double SwiftObfuscator_VersionNumber;
+FOUNDATION_EXPORT double SwiftObfuscatorVersionNumber;
 
 //! Project version string for SwiftObfuscator.
-FOUNDATION_EXPORT const unsigned char SwiftObfuscator_VersionString[];
+FOUNDATION_EXPORT const unsigned char SwiftObfuscatorVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <SwiftObfuscator_iOS/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <SwiftObfuscator/PublicHeader.h>
 
 

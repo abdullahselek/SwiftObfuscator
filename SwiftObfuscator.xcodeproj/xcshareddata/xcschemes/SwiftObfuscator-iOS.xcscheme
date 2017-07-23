@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A43B3B4D1F23B723003BB7FD"
+               BlueprintIdentifier = "A4C0D7D81F24D9DF005511EA"
                BuildableName = "SwiftObfuscator.framework"
                BlueprintName = "SwiftObfuscator-iOS"
                ReferencedContainer = "container:SwiftObfuscator.xcodeproj">
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A43B3B551F23B723003BB7FD"
+               BlueprintIdentifier = "A4C0D8001F24DC00005511EA"
                BuildableName = "SwiftObfuscator-iOSTests.xctest"
                BlueprintName = "SwiftObfuscator-iOSTests"
                ReferencedContainer = "container:SwiftObfuscator.xcodeproj">
@@ -42,7 +43,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43B3B4D1F23B723003BB7FD"
+            BlueprintIdentifier = "A4C0D7D81F24D9DF005511EA"
             BuildableName = "SwiftObfuscator.framework"
             BlueprintName = "SwiftObfuscator-iOS"
             ReferencedContainer = "container:SwiftObfuscator.xcodeproj">
@@ -64,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43B3B4D1F23B723003BB7FD"
+            BlueprintIdentifier = "A4C0D7D81F24D9DF005511EA"
             BuildableName = "SwiftObfuscator.framework"
             BlueprintName = "SwiftObfuscator-iOS"
             ReferencedContainer = "container:SwiftObfuscator.xcodeproj">
@@ -82,7 +83,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43B3B4D1F23B723003BB7FD"
+            BlueprintIdentifier = "A4C0D7D81F24D9DF005511EA"
             BuildableName = "SwiftObfuscator.framework"
             BlueprintName = "SwiftObfuscator-iOS"
             ReferencedContainer = "container:SwiftObfuscator.xcodeproj">
