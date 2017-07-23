@@ -9,7 +9,7 @@
 import Foundation
 import CommonCrypto
 
-class Obfuscator: NSObject {
+class Obfuscator {
 
     internal func hashSaltUsingSHA1(salt: String) -> String {
         guard let data = salt.data(using: .utf8) as NSData? else {
