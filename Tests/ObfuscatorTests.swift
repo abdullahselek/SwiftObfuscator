@@ -15,7 +15,7 @@ class ObfuscatorTests: XCTestCase {
     func testHashSaltUsingSHA1() {
         let obfuscator = Obfuscator()
         let hash = obfuscator.hashSaltUsingSHA1(salt: "hello")
-        XCTAssertEqual(hash, "aaf4c61ddc")
+        XCTAssertEqual(hash, "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d")
     }
     
 }
