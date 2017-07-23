@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A43B3B571F23B723003BB7FD /* SwiftObfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43B3B4E1F23B723003BB7FD /* SwiftObfuscator.framework */; };
-		A43B3B6B1F23B89F003BB7FD /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */; };
+		A43B3B6B1F23B89F003BB7FD /* SwiftObfuscator.h in Headers */ = {isa = PBXBuildFile; fileRef = A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43B3B721F23BD0B003BB7FD /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B3B711F23BD0B003BB7FD /* Obfuscator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftObfuscator.h; path = Source/SwiftObfuscator.h; sourceTree = "<group>"; };
 		A43B3B6C1F23B8A8003BB7FD /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Source/Info-iOS.plist"; sourceTree = "<group>"; };
 		A43B3B6F1F23BA45003BB7FD /* generateForIOS */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = generateForIOS; path = CommonCrypto/generateForIOS; sourceTree = "<group>"; };
+		A43B3B711F23BD0B003BB7FD /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Source/Obfuscator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				A43B3B6C1F23B8A8003BB7FD /* Info-iOS.plist */,
 				A43B3B6A1F23B89F003BB7FD /* SwiftObfuscator.h */,
+				A43B3B711F23BD0B003BB7FD /* Obfuscator.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -113,11 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43B3B5F1F23B723003BB7FD /* Build configuration list for PBXNativeTarget "SwiftObfuscator-iOS" */;
 			buildPhases = (
+				A43B3B701F23BADE003BB7FD /* ShellScript */,
 				A43B3B491F23B723003BB7FD /* Sources */,
 				A43B3B4A1F23B723003BB7FD /* Frameworks */,
 				A43B3B4B1F23B723003BB7FD /* Headers */,
 				A43B3B4C1F23B723003BB7FD /* Resources */,
-				A43B3B701F23BADE003BB7FD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43B3B721F23BD0B003BB7FD /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +251,7 @@
 		A43B3B601F23B723003BB7FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -270,6 +275,7 @@
 		A43B3B611F23B723003BB7FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -292,6 +298,7 @@
 		A43B3B631F23B723003BB7FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SwiftObfuscator-iOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -304,6 +311,7 @@
 		A43B3B641F23B723003BB7FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "SwiftObfuscator-iOSTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -341,6 +349,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/$(PLATFORM_NAME)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,6 +404,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/$(PLATFORM_NAME)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -424,6 +434,7 @@
 				A43B3B611F23B723003BB7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A43B3B621F23B723003BB7FD /* Build configuration list for PBXNativeTarget "SwiftObfuscator-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +443,7 @@
 				A43B3B641F23B723003BB7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BFD2C21F210BE000736539 /* Build configuration list for PBXProject "SwiftObfuscator" */ = {
 			isa = XCConfigurationList;

@@ -14,6 +14,6 @@ FOUNDATION_EXPORT double SwiftObfuscator_VersionNumber;
 //! Project version string for SwiftObfuscator.
 FOUNDATION_EXPORT const unsigned char SwiftObfuscator_VersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <SwiftObfuscator/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <SwiftObfuscator_iOS/PublicHeader.h>
 
 
